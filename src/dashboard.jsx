@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { Cloud, Droplets, Wind, MapPin, Search, ArrowRight } from "lucide-react";
 
 const api = {
-  key: "d836626653414be18c946b9872e6901d",
+  key: process.env.key,
   base: "https://api.openweathermap.org/data/2.5/",
 };
 

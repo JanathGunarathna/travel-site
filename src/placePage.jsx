@@ -43,7 +43,7 @@ function PlacesPage() {
       }, 10000); // 10 second timeout
 
       // Create script element to load Google Maps API
-      const apiKey = process.env.apikey; 
+      const apiKey = "process.env.apikey"; //AIzaSyDcL_VlP2uCzbjMkzbohguAaolCVaf6iA0
       const script = document.createElement("script");
       script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&libraries=places`;
       script.async = true;

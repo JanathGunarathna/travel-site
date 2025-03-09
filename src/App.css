@@ -25,7 +25,7 @@ code {
 }
 
 .gradient-background {
-  background: linear-gradient(135deg, #1e3a8a 0%, #3949ab 100%);
+  background: linear-gradient(135deg,rgb(9, 102, 37) 0%,rgb(28, 49, 180) 100%);
   color: white;
 }
 
@@ -55,7 +55,7 @@ h1 {
 }
 
 .subtitle {
-  color: #bfdbfe;
+  color:rgb(237, 241, 230);
   margin-top: 8px;
 }
 

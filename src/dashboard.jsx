@@ -82,7 +82,7 @@ function WeatherDashboard() {
       <div className="container padding-y">
         {/* Header */}
         <div className="text-center margin-bottom">
-          <h1>Weather Dashboard</h1>
+        <h1 style={{ color: 'yellow' }}>Weather Dashboard</h1>
           <p className="subtitle">Check weather conditions anywhere</p>
         </div>
 
@@ -154,7 +154,7 @@ function WeatherDashboard() {
                     <div className="weather-detail-item">
                       <div className="detail-header">
                         <Cloud className="detail-icon" />
-                        <h3 className="detail-title">Feels Like</h3>
+                        <h3 className="detail-title">Temperature</h3>
                       </div>
                       <p className="detail-value">{Math.round(weather.main.feels_like)}°C</p>
                     </div>
